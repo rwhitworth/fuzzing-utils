@@ -194,3 +194,13 @@ https://github.com/ccxvii/mujs/commit/5f83cc98423474d0c7a26b0494e84168621467d0
 
 #### gettext-tiny
 * https://github.com/sabotage-linux/gettext-tiny/issues/11
+
+
+## Issue Template
+
+Hello,
+I was using American Fuzzy Lop (afl-fuzz) to fuzz input to the PROGRAM_NAME program on Linux. Is fixing the crashes from these input files something you're interested in? The input files can be found here: URL
+
+The files can be executed as `./PROGRAM_NAME id_filename` to cause seg faults.
+
+Let me know if I can provide any more information to help narrow down this issue.
