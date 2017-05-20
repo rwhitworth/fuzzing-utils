@@ -195,6 +195,9 @@ https://github.com/ccxvii/mujs/commit/5f83cc98423474d0c7a26b0494e84168621467d0
 #### gettext-tiny
 * https://github.com/sabotage-linux/gettext-tiny/issues/11
 
+#### yet-another-brainfuck-interpreter
+* https://github.com/profan/yet-another-brainfuck-interpreter/issues/6
+
 
 ## Issue Template
 
