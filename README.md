@@ -153,6 +153,11 @@ https://github.com/ccxvii/mujs/commit/0365576bab685613d46a3f714b602b774c4e3e1c
 * Add recursion overflow checks in parser
 https://github.com/ccxvii/mujs/commit/5f83cc98423474d0c7a26b0494e84168621467d0
 
+#### yet-another-brainfuck-interpreter
+
+* actually exit when invalid data returned from loadinstr, also exit early when stptr wraps and return proper error code
+https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c78f0ce98e18cd011153da16a84f8
+
 
 ## Outstanding
 
@@ -194,9 +199,6 @@ https://github.com/ccxvii/mujs/commit/5f83cc98423474d0c7a26b0494e84168621467d0
 
 #### gettext-tiny
 * https://github.com/sabotage-linux/gettext-tiny/issues/11
-
-#### yet-another-brainfuck-interpreter
-* https://github.com/profan/yet-another-brainfuck-interpreter/issues/6
 
 
 ## Issue Template
