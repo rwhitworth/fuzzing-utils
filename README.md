@@ -203,6 +203,9 @@ https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c7
 #### radare2
 * https://github.com/radare/radare2/issues/7553
 
+#### mujs
+* https://github.com/ccxvii/mujs/issues/42
+
 
 ## Issue Template
 
