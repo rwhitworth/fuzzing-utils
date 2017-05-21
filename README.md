@@ -200,6 +200,9 @@ https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c7
 #### gettext-tiny
 * https://github.com/sabotage-linux/gettext-tiny/issues/11
 
+#### radare2
+* https://github.com/radare/radare2/issues/7553
+
 
 ## Issue Template
 
