@@ -100,6 +100,19 @@ https://github.com/espruino/Espruino/commit/5d6e8cb04fb56be78987d2906cc999e9fc66
 * more fuzzing fixes - #1149
 https://github.com/espruino/Espruino/commit/af419e7684fa41d771fe20c12611b250ccd73afd
 
+* Fix some stack overflow bugs on Linux found by fuzzing
+https://github.com/espruino/Espruino/commit/5240e7a8f6384cac3fa0c2e546b339ce196e95e1
+
+* Remove un-needed code for parsing '.' in var statement
+https://github.com/espruino/Espruino/commit/04e8b6dc93ac8fe9d0ba0afd60bb81585e1def78
+
+* Fix assert detected by fuzzing - fix
+https://github.com/espruino/Espruino/commit/a535e10065750f20f3633f72fc018681adb94581
+
+* more fuzzing fixes
+https://github.com/espruino/Espruino/commit/5a60b8ebeb38b4d074444ce7312a8cb702a0ab14
+
+
 #### libetpan
 
 * Fixed crash #274 - CVE-2017-8825
@@ -164,10 +177,6 @@ https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c7
 #### Wren
 * https://github.com/munificent/wren/issues/442
 
-#### Espruino
-* https://github.com/espruino/Espruino/issues/1149
-* https://github.com/espruino/Espruino/issues/1152
-
 #### libcintelhex
 * https://github.com/martin-helmich/libcintelhex/issues/36
 
@@ -179,6 +188,13 @@ https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c7
 
 #### mjs
 * https://github.com/cesanta/mjs/issues/33
+
+* Don't crash on division by zero
+https://github.com/cesanta/mjs/commit/c8d53f1afc5b80db101c0343718d5677df795ce7
+
+* Fix cs_varint and add tests for it
+https://github.com/cesanta/mjs/commit/eb8717b9114d5326dd48132181f907f21803aba6
+
 
 #### MoarVM
 * https://github.com/MoarVM/MoarVM/issues/596
