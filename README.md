@@ -171,6 +171,18 @@ https://github.com/ccxvii/mujs/commit/5f83cc98423474d0c7a26b0494e84168621467d0
 * actually exit when invalid data returned from loadinstr, also exit early when stptr wraps and return proper error code
 https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c78f0ce98e18cd011153da16a84f8
 
+#### mjs
+
+* Don't crash on division by zero
+https://github.com/cesanta/mjs/commit/c8d53f1afc5b80db101c0343718d5677df795ce7
+
+* Fix cs_varint and add tests for it
+https://github.com/cesanta/mjs/commit/eb8717b9114d5326dd48132181f907f21803aba6
+
+* Don't crash on an invalid pointer arithmetic
+https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
+
+
 
 ## Outstanding
 
@@ -185,16 +197,6 @@ https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c7
 
 #### v7
 * https://github.com/cesanta/v7/issues/582
-
-#### mjs
-* https://github.com/cesanta/mjs/issues/33
-
-* Don't crash on division by zero
-https://github.com/cesanta/mjs/commit/c8d53f1afc5b80db101c0343718d5677df795ce7
-
-* Fix cs_varint and add tests for it
-https://github.com/cesanta/mjs/commit/eb8717b9114d5326dd48132181f907f21803aba6
-
 
 #### MoarVM
 * https://github.com/MoarVM/MoarVM/issues/596
