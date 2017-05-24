@@ -19,7 +19,7 @@ https://github.com/msteveb/jimtcl/commit/432647170f6d96d78ae98c8614054e003e92557
 * expr: Add better checks for invalid ternary expression
 https://github.com/msteveb/jimtcl/commit/f6940da4afeb50fd77582cee23f8d7a60e47dcab
 
-* lsort: Fix a refcount issue
+* lsort: Fix a refcount issue              
 https://github.com/msteveb/jimtcl/commit/1d6b931d0c873bbad193677734dc9d352628577b
 
 * jim: Fix ref count problem with interpolated dict subst
@@ -31,7 +31,7 @@ https://github.com/msteveb/jimtcl/commit/46d9d687fa0460dc2f92a14130eca18f496c464
 * scan: error on missing conversion char
 https://github.com/msteveb/jimtcl/commit/2a3bfa6b1962af2dfb5c6e49d6dd6b3a39714df9
 
-* exec: Fix check for | and |&
+* exec: Fix check for | and |&         
 https://github.com/msteveb/jimtcl/commit/a14d9438b9a67899be0443f39345fa957677f9b8
 
 * format: Validate too many flags in format string
@@ -49,6 +49,9 @@ https://github.com/msteveb/jimtcl/commit/edf6b0fce509133dccfeda71227240e60606f10
 * scan: Ensure format is converted to string form
 https://github.com/msteveb/jimtcl/commit/e1bf40597713aa821eb91c7e6c0aee96519f32c4
 
+* expr: Replace expression engine                
+https://github.com/msteveb/jimtcl/commit/bd5139c89e714bb7e10a0da55d9a10f51e93516c
+
 #### qlibc
 
 * Issue 61 - fix emptry variable replacement causing a panic
@@ -61,7 +64,7 @@ https://github.com/gray/compress-lz4/commit/013cb62f9346719083dae5edd63388833c6a
 
 #### mruby
 
-* mruby issue fixed between start of test and finding of issue
+* mruby issue fixed between start of test and finding of issue      
 https://github.com/mruby/mruby/issues/3585
 
 #### funtools
@@ -109,7 +112,7 @@ https://github.com/espruino/Espruino/commit/04e8b6dc93ac8fe9d0ba0afd60bb81585e1d
 * Fix assert detected by fuzzing - fix
 https://github.com/espruino/Espruino/commit/a535e10065750f20f3633f72fc018681adb94581
 
-* more fuzzing fixes
+* more fuzzing fixes            
 https://github.com/espruino/Espruino/commit/5a60b8ebeb38b4d074444ce7312a8cb702a0ab14
 
 
@@ -132,13 +135,13 @@ https://github.com/skx/simple.vm/commit/9f4d96f107d5cb4801116a5ac5db518fe24258ef
 * memcpy wraps around when writing past 0xFFFF
 https://github.com/skx/simple.vm/commit/9eff6adeee519b6e036ec77828ae77fde99c7009
 
-* Second bugfix for memcpy
+* Second bugfix for memcpy             
 https://github.com/skx/simple.vm/commit/0341918deec31f763416f6412984fef991401d7c
 
 * Allow capping the number of instructions to be run
 https://github.com/skx/simple.vm/commit/a231d164e92f19920ded9ec595c1f114e2ff0926
 
-* Check for error in fread
+* Check for error in fread           
 https://github.com/skx/simple.vm/commit/c94eeed2faac4c8c921c0a25e2463d11c9bb6a32
 
 * Explicitly ignore system() result
