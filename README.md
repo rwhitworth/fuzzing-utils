@@ -227,6 +227,11 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 #### mujs
 * https://github.com/ccxvii/mujs/issues/42
 
+#### openjpeg
+* https://github.com/uclouvain/openjpeg/issues/938
+* https://github.com/uclouvain/openjpeg/issues/939
+* https://github.com/uclouvain/openjpeg/issues/940
+
 
 ## Issue Template
 
