@@ -187,6 +187,14 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 
 
 
+## Closed without commits
+
+#### jo
+* https://github.com/jpmens/jo/issues/53
+
+
+
+
 ## Outstanding
 
 #### Wren
@@ -212,9 +220,6 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 #### tre
 * https://github.com/laurikari/tre/issues/58
 
-#### jo
-* https://github.com/jpmens/jo/issues/53
-
 #### 8cc 
 * https://github.com/rui314/8cc/issues/88
 
@@ -232,6 +237,8 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 * https://github.com/uclouvain/openjpeg/issues/939
 * https://github.com/uclouvain/openjpeg/issues/940
 
+#### jimtcl
+* https://github.com/msteveb/jimtcl/issues/98
 
 ## Issue Template
 
