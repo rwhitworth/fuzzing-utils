@@ -240,6 +240,11 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 #### jimtcl
 * https://github.com/msteveb/jimtcl/issues/98
 
+#### gravity
+* https://github.com/marcobambini/gravity/issues/161
+* https://github.com/marcobambini/gravity/issues/163
+* https://github.com/marcobambini/gravity/issues/164
+
 
 ## Things not to fuzz
 
