@@ -240,6 +240,13 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 #### jimtcl
 * https://github.com/msteveb/jimtcl/issues/98
 
+
+## Things not to fuzz
+
+List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
+
+perl, MRI ruby, mruby, libgif (outstanding bug/CVE confirmed, but no new issues found), jq, lua, luajit, libsndfile, libarchive, libgd, liblnk, CSV::XS
+
 ## Issue Template
 
 Hello,
