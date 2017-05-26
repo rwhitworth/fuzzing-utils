@@ -52,6 +52,12 @@ https://github.com/msteveb/jimtcl/commit/e1bf40597713aa821eb91c7e6c0aee96519f32c
 * expr: Replace expression engine                
 https://github.com/msteveb/jimtcl/commit/bd5139c89e714bb7e10a0da55d9a10f51e93516c
 
+* scan: validate -ve XPG3 specifier
+https://github.com/msteveb/jimtcl/commit/0858783cc469c095d7e6121d1fc5689760da841e
+
+* format: validate too long precision
+https://github.com/msteveb/jimtcl/commit/8a0aae566304774210aaeaaac929efe3773b3c60
+
 #### qlibc
 
 * Issue 61 - fix emptry variable replacement causing a panic
@@ -94,6 +100,9 @@ https://github.com/marcobambini/gravity/commit/b07ed8f76a47c93d0c64d7e940093966e
 
 * Fixed assert triggered by new fuzzy test.  Unit-test updated.
 https://github.com/marcobambini/gravity/commit/6eda92e1c4f9a743e15828185dcd5374c84b0175
+
+* Added a sanity check for super operator loading. Unit test added.
+https://github.com/marcobambini/gravity/commit/a39c6a461d1e714c63e3ea575be64d83375cc354
 
 #### Espruino
 
@@ -188,10 +197,11 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 
 
 ## Closed without commits
+Note: It is a-okay that some items are determined to not be real issues.  
+It is up to individual developers to determine the severity of bug reports.
 
-#### jo
 * https://github.com/jpmens/jo/issues/53
-
+* https://github.com/marcobambini/gravity/issues/163
 
 
 
@@ -242,8 +252,6 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
-* https://github.com/marcobambini/gravity/issues/163
-* https://github.com/marcobambini/gravity/issues/164
 
 #### io
 * https://github.com/stevedekorte/io/issues/354
