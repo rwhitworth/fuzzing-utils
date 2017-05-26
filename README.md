@@ -65,7 +65,7 @@ https://github.com/wolkykim/qlibc/commit/1772a2b16f971c4d903f4601773f59cf2c2d118
 
 #### Compress::LZ4
 
-* safely handle 0-size, >0 length payload; RT #120991
+* safely handle 0-size, >0 length payload; RT #120991          
 https://github.com/gray/compress-lz4/commit/013cb62f9346719083dae5edd63388833c6aa72e
 
 #### mruby
@@ -106,10 +106,10 @@ https://github.com/marcobambini/gravity/commit/a39c6a461d1e714c63e3ea575be64d833
 
 #### Espruino
 
-* Fix segfault detected by fuzzing
+* Fix segfault detected by fuzzing                            
 https://github.com/espruino/Espruino/commit/5d6e8cb04fb56be78987d2906cc999e9fc6634da
 
-* more fuzzing fixes - #1149
+* more fuzzing fixes - #1149                                
 https://github.com/espruino/Espruino/commit/af419e7684fa41d771fe20c12611b250ccd73afd
 
 * Fix some stack overflow bugs on Linux found by fuzzing
@@ -166,16 +166,16 @@ https://github.com/maxmind/libmaxminddb/commit/07412b30f204034bfec880a38763a222d
 
 #### mujs
 
-* Add a js_setreport callback function to report warnings
+* Add a js_setreport callback function to report warnings  
 https://github.com/ccxvii/mujs/commit/fb32b5c893a0685dceaa2bb72bf64880e0cc4572
 
-* Fix error message when missing stack traces in main.c
+* Fix error message when missing stack traces in main.c    
 https://github.com/ccxvii/mujs/commit/6a85c78a5d89503e7e5f0b09b2de9fe2dce7183d
 
-* Emit line numbers for each entry in compound literals
+* Emit line numbers for each entry in compound literals    
 https://github.com/ccxvii/mujs/commit/0365576bab685613d46a3f714b602b774c4e3e1c
 
-* Add recursion overflow checks in parser
+* Add recursion overflow checks in parser                 
 https://github.com/ccxvii/mujs/commit/5f83cc98423474d0c7a26b0494e84168621467d0
 
 #### yet-another-brainfuck-interpreter
@@ -185,13 +185,13 @@ https://github.com/profan/yet-another-brainfuck-interpreter/commit/8fe7ab3e4a4c7
 
 #### mjs
 
-* Don't crash on division by zero
+* Don't crash on division by zero                      
 https://github.com/cesanta/mjs/commit/c8d53f1afc5b80db101c0343718d5677df795ce7
 
-* Fix cs_varint and add tests for it
+* Fix cs_varint and add tests for it                     
 https://github.com/cesanta/mjs/commit/eb8717b9114d5326dd48132181f907f21803aba6
 
-* Don't crash on an invalid pointer arithmetic
+* Don't crash on an invalid pointer arithmetic          
 https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 
 
