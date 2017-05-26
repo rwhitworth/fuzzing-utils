@@ -245,6 +245,9 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 * https://github.com/marcobambini/gravity/issues/163
 * https://github.com/marcobambini/gravity/issues/164
 
+#### io
+* https://github.com/stevedekorte/io/issues/354
+
 
 ## Things not to fuzz
 
