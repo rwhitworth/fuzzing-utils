@@ -247,9 +247,6 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/uclouvain/openjpeg/issues/939
 * https://github.com/uclouvain/openjpeg/issues/940
 
-#### jimtcl
-* https://github.com/msteveb/jimtcl/issues/98
-
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
 
