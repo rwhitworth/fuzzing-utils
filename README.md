@@ -271,3 +271,7 @@ I was using American Fuzzy Lop (afl-fuzz) to fuzz input to the PROGRAM_NAME prog
 The files can be executed as `./PROGRAM_NAME id_filename` to cause seg faults.
 
 Let me know if I can provide any more information to help narrow down this issue.
+
+## AFL options
+
+`AFL_HARDEN=1 AFL_INST_RATIO=50 AFL_NO_BUILTIN=1 CC=afl-clang-fast CXX=afl-clang-fast++`
