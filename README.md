@@ -202,7 +202,7 @@ It is up to individual developers to determine the severity of bug reports.
 
 * https://github.com/jpmens/jo/issues/53
 * https://github.com/marcobambini/gravity/issues/163
-
+* https://github.com/stevedekorte/io/issues/354
 
 
 ## Outstanding
@@ -250,8 +250,8 @@ It is up to individual developers to determine the severity of bug reports.
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
 
-#### io
-* https://github.com/stevedekorte/io/issues/354
+#### Core-War
+* https://github.com/emilwallner/Core-War/issues/23
 
 
 ## Things not to fuzz
