@@ -276,3 +276,11 @@ Let me know if I can provide any more information to help narrow down this issue
 ## AFL options
 
 `AFL_HARDEN=1 AFL_INST_RATIO=50 AFL_NO_BUILTIN=1 CC=afl-clang-fast CXX=afl-clang-fast++`
+
+## gdb
+
+`ulimit -c unlimited ; ./binary id_filename ; gdb --batch --eval-command=bt ./binary core`
+
+## valgrind
+
+`valgrind ./binary id_filename 2>&1 | less`
