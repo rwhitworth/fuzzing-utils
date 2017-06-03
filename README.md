@@ -257,6 +257,8 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/emilwallner/Core-War/issues/23
 * https://github.com/emilwallner/Core-War/issues/24
 
+#### ravi
+* https://github.com/dibyendumajumdar/ravi/issues/125
 
 ## Things not to fuzz
 
