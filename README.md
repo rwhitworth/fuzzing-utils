@@ -264,7 +264,7 @@ It is up to individual developers to determine the severity of bug reports.
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
 
-perl, MRI ruby, mruby, libgif (outstanding bug/CVE confirmed, but no new issues found), jq, lua, luajit, libsndfile, libarchive, libgd, liblnk, CSV::XS, Lemon lexer/parser as part of SQLite3 (issues will not be resolved by developers), imageworsener, json-parser
+perl, MRI ruby, mruby, libgif (outstanding bug/CVE confirmed, but no new issues found), jq, lua, luajit, libsndfile, libarchive, libgd, liblnk, CSV::XS, Lemon lexer/parser as part of SQLite3 (issues will not be resolved by developers), imageworsener, json-parser, parson
 
 ## Issue Template
 
