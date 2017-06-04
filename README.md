@@ -104,6 +104,12 @@ https://github.com/marcobambini/gravity/commit/6eda92e1c4f9a743e15828185dcd5374c
 * Added a sanity check for super operator loading. Unit test added.
 https://github.com/marcobambini/gravity/commit/a39c6a461d1e714c63e3ea575be64d83375cc354
 
+* Fixed an issue reported by fuzzy test.                              
+https://github.com/marcobambini/gravity/commit/1600d87c65e13976d3d3e4786a630e96f6ba7e96
+
+* Fixed a crash bug reported by fuzzy test. Unit test added.          
+https://github.com/marcobambini/gravity/commit/74c051b468c8899efa9634fff0711ad83e56dbca
+
 #### Espruino
 
 * Fix segfault detected by fuzzing                            
@@ -251,7 +257,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
-* https://github.com/marcobambini/gravity/issues/166
 
 #### Core-War
 * https://github.com/emilwallner/Core-War/issues/23
