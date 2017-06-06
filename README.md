@@ -268,6 +268,9 @@ It is up to individual developers to determine the severity of bug reports.
 #### parrot
 * https://github.com/parrot/parrot/issues/1236
 
+#### cperl
+* https://github.com/perl11/cperl/issues/293
+
 ## Things not to fuzz
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
