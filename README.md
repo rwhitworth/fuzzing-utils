@@ -200,6 +200,10 @@ https://github.com/cesanta/mjs/commit/eb8717b9114d5326dd48132181f907f21803aba6
 * Don't crash on an invalid pointer arithmetic          
 https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 
+#### partcl
+* fixed buffer overflow issues (#4), some formatting changes with newer clang-format
+https://github.com/zserge/partcl/commit/3be59f968362b9405d81ec39388d9ed41ea3dc02
+
 
 
 ## Closed without commits
@@ -271,8 +275,6 @@ It is up to individual developers to determine the severity of bug reports.
 #### cperl
 * https://github.com/perl11/cperl/issues/293
 
-#### partcl
-* https://github.com/zserge/partcl/issues/4
 
 ## Things not to fuzz
 
