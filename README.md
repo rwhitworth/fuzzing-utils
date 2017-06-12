@@ -261,6 +261,7 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
+* https://github.com/marcobambini/gravity/issues/167
 
 #### Core-War
 * https://github.com/emilwallner/Core-War/issues/23
