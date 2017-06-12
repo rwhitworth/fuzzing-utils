@@ -276,6 +276,9 @@ It is up to individual developers to determine the severity of bug reports.
 #### cperl
 * https://github.com/perl11/cperl/issues/293
 
+#### huo
+* https://github.com/HuoLanguage/huo/issues/61
+* https://github.com/HuoLanguage/huo/issues/62
 
 ## Things not to fuzz
 
