@@ -110,6 +110,9 @@ https://github.com/marcobambini/gravity/commit/1600d87c65e13976d3d3e4786a630e96f
 * Fixed a crash bug reported by fuzzy test. Unit test added.          
 https://github.com/marcobambini/gravity/commit/74c051b468c8899efa9634fff0711ad83e56dbca
 
+* Various fixes for the latest issues discovered by fuzzy testing. Unit test added.
+https://github.com/marcobambini/gravity/commit/1c0bf5abb61ce8cd72d33a73de9ffe86d398bb4b
+
 #### Espruino
 
 * Fix segfault detected by fuzzing                            
@@ -261,7 +264,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
-* https://github.com/marcobambini/gravity/issues/167
 
 #### Core-War
 * https://github.com/emilwallner/Core-War/issues/23
@@ -279,6 +281,9 @@ It is up to individual developers to determine the severity of bug reports.
 #### huo
 * https://github.com/HuoLanguage/huo/issues/61
 * https://github.com/HuoLanguage/huo/issues/62
+
+#### newt
+* https://github.com/cqcallaw/newt/issues/46
 
 ## Things not to fuzz
 
