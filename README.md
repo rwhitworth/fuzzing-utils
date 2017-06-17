@@ -285,6 +285,9 @@ It is up to individual developers to determine the severity of bug reports.
 #### newt
 * https://github.com/cqcallaw/newt/issues/46
 
+#### hunspell
+* https://github.com/hunspell/hunspell/issues/505
+
 ## Things not to fuzz
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
