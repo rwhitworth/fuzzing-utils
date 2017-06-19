@@ -207,6 +207,18 @@ https://github.com/cesanta/mjs/commit/3603a08b9867dda63d2f821f0df4878407847db5
 * fixed buffer overflow issues (#4), some formatting changes with newer clang-format
 https://github.com/zserge/partcl/commit/3be59f968362b9405d81ec39388d9ed41ea3dc02
 
+#### cperl
+* Harmonize TOKENBUF_SIZE and stack buf sizes
+https://github.com/perl11/cperl/commit/27c9cdda8039c0c724d983c1d7b602de0ec8d68e
+
+* Disallow pad_findmy_pvn flags, no UTF8
+https://github.com/perl11/cperl/commit/d7abc28f3d9d75b7d575e7b2c4e1f9a6cbe45f3f
+
+* Fix #293 regex stack recursion overflow
+https://github.com/perl11/cperl/commit/f973d447cef6088a627ef625c8da05eb21359da3
+
+* perlcdelta: for the afl-fuzzer #293 fixed bugs
+https://github.com/perl11/cperl/commit/35886a1e694a266d576d33d8cc289ce147ea5106
 
 
 ## Closed without commits
@@ -274,9 +286,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### parrot
 * https://github.com/parrot/parrot/issues/1236
-
-#### cperl
-* https://github.com/perl11/cperl/issues/293
 
 #### huo
 * https://github.com/HuoLanguage/huo/issues/61
