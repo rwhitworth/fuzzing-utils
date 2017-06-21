@@ -314,7 +314,19 @@ Let me know if I can provide any more information to help narrow down this issue
 
 ## AFL options
 
-`AFL_HARDEN=1 AFL_INST_RATIO=50 AFL_NO_BUILTIN=1 CC=afl-clang-fast CXX=afl-clang-fast++`
+```
+export CC=afl-clang-fast 
+export CXX=afl-clang-fast++
+export AFL_HARDEN=1
+export AFL_NO_BUILTIN=1
+export AFL_INST_RATIO=100
+export AFL_DONT_OPTIMIZE=1
+
+echo 1 >/proc/sys/kernel/sched_child_runs_first
+echo 1 >/proc/sys/kernel/sched_autogroup_enabled
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
+```
+
 
 ## gdb
 
