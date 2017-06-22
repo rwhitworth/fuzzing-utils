@@ -321,10 +321,12 @@ export AFL_HARDEN=1
 export AFL_NO_BUILTIN=1
 export AFL_INST_RATIO=100
 export AFL_DONT_OPTIMIZE=1
+unset AFL_NO_ARITH
 
 echo 1 >/proc/sys/kernel/sched_child_runs_first
 echo 1 >/proc/sys/kernel/sched_autogroup_enabled
 echo never > /sys/kernel/mm/transparent_hugepage/enabled
+sysctl kernel.pid_max=1000000
 ```
 
 
