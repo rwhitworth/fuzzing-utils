@@ -335,3 +335,11 @@ echo never > /sys/kernel/mm/transparent_hugepage/enabled
 ## valgrind
 
 `valgrind ./binary id_filename 2>&1 | less`
+
+## debian box setup
+
+```
+apt-get install -y --no-install-recommends cmake make llvm llvm-dev libfuzzer-3.8-dev clang gcc g++ gdb perl git python ruby flex bison tmux
+wget http://lcamtuf.coredump.cx/afl/releases/afl-latest.tgz
+tar xvzf afl-latest.tgz
+```
