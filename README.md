@@ -220,6 +220,12 @@ https://github.com/perl11/cperl/commit/f973d447cef6088a627ef625c8da05eb21359da3
 * perlcdelta: for the afl-fuzzer #293 fixed bugs
 https://github.com/perl11/cperl/commit/35886a1e694a266d576d33d8cc289ce147ea5106
 
+* Abort on Malformed UTF-8 character errors 
+https://github.com/perl11/cperl/commit/0327f923ff75d32bb6180a06cafd8b02a6a1ff16
+
+* Revert "Don’t stringify GV in numeric cx outside warnings scope"
+https://github.com/perl11/cperl/commit/92de74c2455d11018564a6ae882aa1f00bc10122
+
 
 ## Closed without commits
 Note: It is a-okay that some items are determined to not be real issues.  
@@ -299,6 +305,9 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### id3v2lib
 * https://github.com/larsbs/id3v2lib/issues/24
+
+#### cperl
+* https://github.com/perl11/cperl/issues/300
 
 ## Things not to fuzz
 
