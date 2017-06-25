@@ -297,6 +297,9 @@ It is up to individual developers to determine the severity of bug reports.
 #### hunspell
 * https://github.com/hunspell/hunspell/issues/505
 
+#### id3v2lib
+* https://github.com/larsbs/id3v2lib/issues/24
+
 ## Things not to fuzz
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
