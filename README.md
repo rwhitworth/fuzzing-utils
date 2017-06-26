@@ -313,7 +313,25 @@ It is up to individual developers to determine the severity of bug reports.
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
 
-perl, MRI ruby, mruby, libgif (outstanding bug/CVE confirmed, but no new issues found), jq, lua, luajit, libsndfile, libarchive, libgd, liblnk, CSV::XS, Lemon lexer/parser as part of SQLite3 (issues will not be resolved by developers), imageworsener, json-parser, parson, tinyrb (project dead, no reason to report bugs), libxml (libFuzzer found nothing, also noted other netizens testing with libFuzzer)
+- perl5 - heavily fuzzed by the community, but still tons of bugs to be found.  Tons.  Difficult to report bugs and get traction on fixing them, so not worth the time
+- MRI ruby
+- mruby - very heavily fuzzed by the community, due to bug bounties.  One issue found, but reported by another contributor as well.
+- libgif - outstanding bug/CVE confirmed, but no new issues found
+- jq
+- lua
+- luajit
+- libsndfile - nothing found via afl-fuzz after weeks of fuzzing.  Very vulnerable with lots of active security issues being found, but I'll leave it to others
+- libarchive - nothing found via afl-fuzz after weeks of fuzzing.  Very vulnerable with lots of active security issues being found, but I'll leave it to others
+- libgd
+- liblnk
+- CSV::XS
+- Lemon lexer/parser as part of SQLite3 - issues will not be resolved by developers
+- imageworsener
+- json-parser
+- parson
+- tinyrb - project dead, no reason to report bugs
+- libxml2 - libFuzzer found nothing, also noted other netizens testing with libFuzzer
+- libmaxminddb - clean.  afl-fuzz found one issue previously, but now finding nothing.  libFuzzer also finding nothing now.
 
 ## Issue Template
 
