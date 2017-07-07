@@ -313,6 +313,9 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/cameronswinoga/yabfc/pull/6
 * https://github.com/cameronswinoga/yabfc/issues/7
 
+#### corewar
+* https://github.com/Garuda1/corewar/pull/1
+
 ## Things not to fuzz
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
