@@ -226,6 +226,23 @@ https://github.com/perl11/cperl/commit/0327f923ff75d32bb6180a06cafd8b02a6a1ff16
 * Revert "Don’t stringify GV in numeric cx outside warnings scope"
 https://github.com/perl11/cperl/commit/92de74c2455d11018564a6ae882aa1f00bc10122
 
+#### corewar
+* allocation off by one error                                               
+https://github.com/Garuda1/corewar/pull/1/commits/270c64a9634f9fda71a6a7a2418ba8da97a3bff7
+
+#### yabfc
+
+* Major memory leaks fixed                                               
+https://github.com/cameronswinoga/yabfc/commit/36db058a6e5e916e9dcb55e775a2b7a3af367642
+
+* Last minor leak fixed                                               
+https://github.com/cameronswinoga/yabfc/commit/7e376e03779f2b7b7670c3b4a271de04fae593f7
+
+* Closing file pointers in correct location now                                               
+https://github.com/cameronswinoga/yabfc/commit/d51bb6e85cff0ddfe469d1aa0be87a150132ab9c
+
+
+
 
 ## Closed without commits
 Note: It is a-okay that some items are determined to not be real issues.  
@@ -308,13 +325,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### cperl
 * https://github.com/perl11/cperl/issues/300
-
-#### yabfc
-* https://github.com/cameronswinoga/yabfc/pull/6
-* https://github.com/cameronswinoga/yabfc/issues/7
-
-#### corewar
-* https://github.com/Garuda1/corewar/pull/1
 
 ## Things not to fuzz
 
