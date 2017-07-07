@@ -311,6 +311,7 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### yabfc
 * https://github.com/cameronswinoga/yabfc/pull/6
+* https://github.com/cameronswinoga/yabfc/issues/7
 
 ## Things not to fuzz
 
