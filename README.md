@@ -241,7 +241,9 @@ https://github.com/cameronswinoga/yabfc/commit/7e376e03779f2b7b7670c3b4a271de04f
 * Closing file pointers in correct location now                                               
 https://github.com/cameronswinoga/yabfc/commit/d51bb6e85cff0ddfe469d1aa0be87a150132ab9c
 
-
+#### zForth
+* Added checks for division by zero for / and % primitives, added ZF_ABORT_DIVISION_BY_ZERO exception type
+https://github.com/zevv/zForth/commit/d232eb6154795769ad6e5b8f521c5cd2014f3e11
 
 
 ## Closed without commits
@@ -329,6 +331,15 @@ It is up to individual developers to determine the severity of bug reports.
 #### yabfc
 * https://github.com/cameronswinoga/yabfc/pull/8
 * https://github.com/cameronswinoga/yabfc/pull/9
+
+#### cc65
+* https://github.com/cc65/cc65/issues/469
+
+#### ejdb
+* https://github.com/Softmotions/ejdb/issues/195
+* https://github.com/Softmotions/ejdb/issues/196
+
+
 
 ## Things not to fuzz
 
