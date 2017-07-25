@@ -364,6 +364,7 @@ List of things fuzzed that found very little or no issues via AFL.  These may be
 - tinyrb - project dead, no reason to report bugs
 - libxml2 - libFuzzer found nothing, also noted other netizens testing with libFuzzer
 - libmaxminddb - clean.  afl-fuzz found one issue previously, but now finding nothing.  libFuzzer also finding nothing now.
+- tinyexpr - nothing found after many days of fuzzing
 
 ## Issue Template
 
