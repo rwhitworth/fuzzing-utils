@@ -245,6 +245,21 @@ https://github.com/cameronswinoga/yabfc/commit/d51bb6e85cff0ddfe469d1aa0be87a150
 * Added checks for division by zero for / and % primitives, added ZF_ABORT_DIVISION_BY_ZERO exception type
 https://github.com/zevv/zForth/commit/d232eb6154795769ad6e5b8f521c5cd2014f3e11
 
+#### openjpeg
+* Avoid division by zero in opj_pi_next_rpcl, opj_pi_next_pcrl and opj_pi_next_cprl
+https://github.com/uclouvain/openjpeg/commit/d27ccf01c68a31ad62b33d2dc1ba2bb1eeaafe7b
+
+* Avoid index out of bounds access to pi->include[]                             
+https://github.com/rouault/openjpeg/commit/d05d4ee096dad4260d965c711c1323c2947eec02
+
+* Avoid index out of bounds access to pi->include[]                                 
+https://github.com/rouault/openjpeg/commit/80818c39f5bfbac37768fcee95b0ffeceaa77264
+
+* Avoid division by zero in opj_pi_next_rpcl, opj_pi_next_pcrl, opj_pi_next_cprl
+https://github.com/uclouvain/openjpeg/commit/5c5319984b81e2aa32d1d83abdef0cdb8dbe7b18
+
+
+
 
 ## Closed without commits
 Note: It is a-okay that some items are determined to not be real issues.  
@@ -295,7 +310,6 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/ccxvii/mujs/issues/42
 
 #### openjpeg
-* https://github.com/uclouvain/openjpeg/issues/938
 * https://github.com/uclouvain/openjpeg/issues/939
 * https://github.com/uclouvain/openjpeg/issues/940
 
@@ -332,12 +346,10 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/cameronswinoga/yabfc/pull/8
 * https://github.com/cameronswinoga/yabfc/pull/9
 
-#### cc65
-* https://github.com/cc65/cc65/issues/469
-
 #### ejdb
 * https://github.com/Softmotions/ejdb/issues/195
 * https://github.com/Softmotions/ejdb/issues/196
+* https://github.com/Softmotions/ejdb/issues/197
 
 
 
@@ -365,6 +377,7 @@ List of things fuzzed that found very little or no issues via AFL.  These may be
 - libxml2 - libFuzzer found nothing, also noted other netizens testing with libFuzzer
 - libmaxminddb - clean.  afl-fuzz found one issue previously, but now finding nothing.  libFuzzer also finding nothing now.
 - tinyexpr - nothing found after many days of fuzzing
+- cc65 - issues will not be resolved by developers
 
 ## Issue Template
 
