@@ -258,6 +258,10 @@ https://github.com/rouault/openjpeg/commit/80818c39f5bfbac37768fcee95b0ffeceaa77
 * Avoid division by zero in opj_pi_next_rpcl, opj_pi_next_pcrl, opj_pi_next_cprl
 https://github.com/uclouvain/openjpeg/commit/5c5319984b81e2aa32d1d83abdef0cdb8dbe7b18
 
+#### off
+* OFF_SYNTAX_OK state: moved to enum. fixes #1                      
+https://github.com/bindh3x/off/commit/cd82a514caebab44e17956ead8c21a3b1a6238d3
+
 
 
 
@@ -270,6 +274,7 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/stevedekorte/io/issues/354
 * https://github.com/rwhitworth/sqlite-fuzz/tree/master/2017-05-12-lemon.c
 * https://github.com/rwhitworth/sqlite-fuzz/tree/master/2017-05-13-lemon.c
+* https://github.com/cc65/cc65/issues/469
 
 
 ## Outstanding
