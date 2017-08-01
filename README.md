@@ -356,7 +356,8 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/Softmotions/ejdb/issues/196
 * https://github.com/Softmotions/ejdb/issues/197
 
-
+#### tinygltf
+* https://github.com/syoyo/tinygltf/issues/16
 
 ## Things not to fuzz
 
