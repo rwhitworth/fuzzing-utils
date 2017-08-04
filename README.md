@@ -258,11 +258,19 @@ https://github.com/rouault/openjpeg/commit/80818c39f5bfbac37768fcee95b0ffeceaa77
 * Avoid division by zero in opj_pi_next_rpcl, opj_pi_next_pcrl, opj_pi_next_cprl
 https://github.com/uclouvain/openjpeg/commit/5c5319984b81e2aa32d1d83abdef0cdb8dbe7b18
 
+* Fix assertion / memory leak in opj_j2k_merge_ppt() on corrupted images (#939)
+https://github.com/uclouvain/openjpeg/commit/8d2e69e37d01bf6a0440d3109d92235c3c586ffe
+
+* opj_decompress: fix null pointer dereference on comps[].data on id_000167,sig_11,src_006079,op_havoc,rep_4 (#939)
+https://github.com/uclouvain/openjpeg/commit/94cc97c58acfa574e734fac5eb673c516c0ac469
+
 #### off
 * OFF_SYNTAX_OK state: moved to enum. fixes #1                      
 https://github.com/bindh3x/off/commit/cd82a514caebab44e17956ead8c21a3b1a6238d3
 
-
+#### tinygltf
+* Check if JSON element is valid JSON object or not. Now all fuzz input passes. Fixes #16.
+https://github.com/syoyo/tinygltf/commit/59130d1a191ba9c1dad282fadbee16bce0fcec5f
 
 
 ## Closed without commits
@@ -314,10 +322,6 @@ It is up to individual developers to determine the severity of bug reports.
 #### mujs
 * https://github.com/ccxvii/mujs/issues/42
 
-#### openjpeg
-* https://github.com/uclouvain/openjpeg/issues/939
-* https://github.com/uclouvain/openjpeg/issues/940
-
 #### gravity
 * https://github.com/marcobambini/gravity/issues/161
 
@@ -356,8 +360,8 @@ It is up to individual developers to determine the severity of bug reports.
 * https://github.com/Softmotions/ejdb/issues/196
 * https://github.com/Softmotions/ejdb/issues/197
 
-#### tinygltf
-* https://github.com/syoyo/tinygltf/issues/16
+#### kona
+* https://github.com/kevinlawler/kona/issues/468
 
 ## Things not to fuzz
 
