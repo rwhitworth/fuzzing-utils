@@ -58,6 +58,15 @@ https://github.com/msteveb/jimtcl/commit/0858783cc469c095d7e6121d1fc5689760da841
 * format: validate too long precision
 https://github.com/msteveb/jimtcl/commit/8a0aae566304774210aaeaaac929efe3773b3c60
 
+* jim: Fix ref count issue with dict-subst                        
+https://github.com/msteveb/jimtcl/commit/9f5d7e0d683f140e4a735a2f357c167a83819050
+
+* expr: Fix refcount issue converting invalid boolean                             
+https://github.com/msteveb/jimtcl/commit/bbe51b64485764195f4fa3be4dee240fb6b66e34
+
+* expr: Check for missing operand to operator                                 
+https://github.com/msteveb/jimtcl/commit/028dd5dd2f58456e27cd6c54b1539fc16406bc9a
+
 #### qlibc
 
 * Issue 61 - fix emptry variable replacement causing a panic
@@ -362,9 +371,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### kona
 * https://github.com/kevinlawler/kona/issues/468
-
-#### jimsh
-* https://github.com/msteveb/jimtcl/issues/100
 
 ## Things not to fuzz
 
