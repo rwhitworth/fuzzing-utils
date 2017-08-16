@@ -372,6 +372,9 @@ It is up to individual developers to determine the severity of bug reports.
 #### kona
 * https://github.com/kevinlawler/kona/issues/468
 
+#### nymph
+* https://github.com/roecrew/nymph/issues/5
+
 ## Things not to fuzz
 
 List of things fuzzed that found very little or no issues via AFL.  These may be worth revisiting with libfuzzer, ASAN enabled, etc.
