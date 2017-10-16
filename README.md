@@ -292,6 +292,11 @@ https://github.com/roecrew/nymph/commit/3faa0a45856fe1bba5d2a2e3a89ade1a79de3e23
 * mcc: error with exceptions in the constant folder                         
 https://github.com/parrot/parrot/commit/c9902370d83c8c585cf1d0564a1630f518f53355
 
+#### Wren
+* Add regression tests from wren-fuzz                                                   
+https://github.com/munificent/wren/commit/c7087652ee34ff9d2d1fd697bd8a4eac22a96182
+
+
 ## Closed without commits
 Note: It is a-okay that some items are determined to not be real issues.  
 It is up to individual developers to determine the severity of bug reports.
@@ -305,9 +310,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 
 ## Outstanding
-
-#### Wren
-* https://github.com/munificent/wren/issues/442
 
 #### libcintelhex
 * https://github.com/martin-helmich/libcintelhex/issues/36
