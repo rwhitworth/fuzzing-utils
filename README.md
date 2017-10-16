@@ -122,6 +122,9 @@ https://github.com/marcobambini/gravity/commit/74c051b468c8899efa9634fff0711ad83
 * Various fixes for the latest issues discovered by fuzzy testing. Unit test added.
 https://github.com/marcobambini/gravity/commit/1c0bf5abb61ce8cd72d33a73de9ffe86d398bb4b
 
+* Fixed all compilation warnings.                                                 
+https://github.com/marcobambini/gravity/commit/07491e10d9ec0072c172fdcf7667ba55367a7028
+
 #### Espruino
 
 * Fix segfault detected by fuzzing                            
@@ -337,9 +340,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### mujs
 * https://github.com/ccxvii/mujs/issues/42
-
-#### gravity
-* https://github.com/marcobambini/gravity/issues/161
 
 #### Core-War
 * https://github.com/emilwallner/Core-War/issues/23
