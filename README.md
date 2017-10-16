@@ -282,9 +282,12 @@ https://github.com/bindh3x/off/commit/cd82a514caebab44e17956ead8c21a3b1a6238d3
 https://github.com/syoyo/tinygltf/commit/59130d1a191ba9c1dad282fadbee16bce0fcec5f
 
 #### nymph
-* isnumber() vs isdigit()
+* isnumber() vs isdigit()                                          
 https://github.com/roecrew/nymph/commit/3faa0a45856fe1bba5d2a2e3a89ade1a79de3e23
 
+#### parrot
+* mcc: error with exceptions in the constant folder                         
+https://github.com/parrot/parrot/commit/c9902370d83c8c585cf1d0564a1630f518f53355
 
 ## Closed without commits
 Note: It is a-okay that some items are determined to not be real issues.  
@@ -344,9 +347,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### ravi
 * https://github.com/dibyendumajumdar/ravi/issues/125
-
-#### parrot
-* https://github.com/parrot/parrot/issues/1236
 
 #### huo
 * https://github.com/HuoLanguage/huo/issues/61
