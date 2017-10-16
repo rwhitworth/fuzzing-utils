@@ -281,6 +281,10 @@ https://github.com/bindh3x/off/commit/cd82a514caebab44e17956ead8c21a3b1a6238d3
 * Check if JSON element is valid JSON object or not. Now all fuzz input passes. Fixes #16.
 https://github.com/syoyo/tinygltf/commit/59130d1a191ba9c1dad282fadbee16bce0fcec5f
 
+#### nymph
+* isnumber() vs isdigit()
+https://github.com/roecrew/nymph/commit/3faa0a45856fe1bba5d2a2e3a89ade1a79de3e23
+
 
 ## Closed without commits
 Note: It is a-okay that some items are determined to not be real issues.  
@@ -371,9 +375,6 @@ It is up to individual developers to determine the severity of bug reports.
 
 #### kona
 * https://github.com/kevinlawler/kona/issues/468
-
-#### nymph
-* https://github.com/roecrew/nymph/issues/5
 
 #### rix
 * https://github.com/riolet/rix/issues/56
