@@ -425,6 +425,8 @@ export AFL_HARDEN=1
 export AFL_NO_BUILTIN=1
 export AFL_INST_RATIO=100
 export AFL_DONT_OPTIMIZE=1
+export AFL_EXIT_WHEN_DONE=1
+export AFL_SKIP_CRASHES=1
 unset AFL_NO_ARITH
 # LD_PRELOAD=/usr/local/lib/afl/libdislocator.so
 
