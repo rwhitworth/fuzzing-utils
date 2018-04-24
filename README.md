@@ -125,6 +125,9 @@ https://github.com/marcobambini/gravity/commit/1c0bf5abb61ce8cd72d33a73de9ffe86d
 * Fixed all compilation warnings.                                                 
 https://github.com/marcobambini/gravity/commit/07491e10d9ec0072c172fdcf7667ba55367a7028
 
+* Added a sanity check on error reporting.
+https://github.com/marcobambini/gravity/commit/d00bb4fff6941e0c0da33f68f7e08a0d2c5210bc
+
 #### Espruino
 
 * Fix segfault detected by fuzzing                            
