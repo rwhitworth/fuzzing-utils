@@ -17,6 +17,7 @@ struct random_data
 long int seed = 0xDEADBEEF;
 
 // http://man7.org/linux/man-pages/man3/random.3.html
+// https://excamera.com/sphinx/article-xorshift.html
 long int random(void)
 {
   seed ^= seed << 13;
